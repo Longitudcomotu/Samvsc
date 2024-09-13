@@ -13,6 +13,6 @@ user_guess = input("Enter your guess: ")
 while user_guess != selected_word:
     user_guess = input("try again: ")
     if user_guess == selected_word:
-        print("you won bro")
+        print("you won bro, see ya")
         break
     

@@ -5,7 +5,13 @@ greeting = f"Hello, {firstname} {lastname}!"
 print (greeting)
 firstlength = len(firstname)
 lastlenght = len(lastname)
+longstr=len(firstname + lastname)
+numberofcharacters = f"your name has, {longstr} characters"
 
-numberofcharacters = f"your name has, {firstlength} characters"
-print(numberofcharacters)
+print(f"your initials are {firstname[0]}{lastname[0]}")
+doublename=""
+for letter in firstname:
+    doublename += letter +  letter
+print(f"Double first name {doublename}")
 
+print(f"backwards last name is {firstname[::-1]}")
