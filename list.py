@@ -1,4 +1,4 @@
-integers=[1,2,3,8,22]
+""" integers=[1,2,3,8,22]
 
 animals=["dog","cat","bird"]
 
@@ -103,4 +103,35 @@ listofnames=["dania","pelon","Sam"]
 
 listofnames.append("GILBERT")
 
-print(listofnames)
+print(listofnames) """
+
+#List comprehention
+
+#list_of_squares=[]
+#for int in range(1,10):
+#    square = int**2
+#    list_of_squares.append(square)
+#print(list_of_squares)
+
+#[expression for item in list if]
+
+""" list_comprehention=[num**2 for num in range(1,10) if num <10]
+print(list_comprehention)
+
+listcomprehention=[num-1 for num in range(1,15) if num%2==0]
+print(listcomprehention)
+
+numbers=[1,2,3,4,5,6,7,8,9]
+
+for num in numbers:
+    print(num**3)
+
+snum = [num**3 for num in numbers]
+print(snum) """
+
+numbers=[1,2,3,4,5,6,7,8,9]
+
+newlist= [num*2 for num in numbers if num%2==0]
+print(newlist)
+
+
