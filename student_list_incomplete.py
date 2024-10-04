@@ -62,7 +62,7 @@ def update_student():
     else:
         print("Student not found")
     #TODO display the updated list
-    display_students
+    display_students()
     #! After complete the function remove 'pass'
 
 # Menu to manage student operations
