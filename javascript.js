@@ -1,2 +1,5 @@
-const name_1 = "John";
-console.log(name_1);
+let x = "hello world"
+console.log(x)
+
+let html = document.getElementById("uno").innerHTML;
+document.getElementById("demo").innerHTML = html;
