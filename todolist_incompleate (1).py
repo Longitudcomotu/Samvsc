@@ -13,28 +13,28 @@ def display_todo_list():
 # Function to add a new task
 def add_task():
     #TODO the user wants to add a task. 
-    task=input("Enter new task")
+    task=input("Enter new task ")
     todo_list.append(task)
 # Function to remove a task by its name
 def remove_task():
     #TODO 
-    task=input("Enter taks you want to delete")
+    task=input("Enter taks you want to delete ")
     if task in todo_list:
         todo_list.remove(task)
         
 # Function to find the index of a task
 def find_task():
     #The user wants to know in what position is a task. 
-    task=input("What is the task you want to find")
+    task=input("What is the task you want to find ")
     if task in todo_list:
         print(todo_list.index(task))
     else:
-        print("task not found")
+        print("task not found ")
 # Function to complete and remove the first task
 def complete_task():    
     #The user wants to remove the first task. 
     todo_list.pop(0)
-    print("First task removed")
+    print("First task removed ")
 # Function to filter tasks containing a specific keyword using list comprehension
 def filter_tasks():
     #TODO create a list comprehension variable to filter tasks containing a specific keyword
